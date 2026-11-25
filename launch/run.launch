@@ -1,0 +1,12 @@
+<launch>
+    <!-- Chargement des paramètres de configuration YAML -->
+    <rosparam command="load" file="$(find tb3_projet_TD)/config/parametres.yaml" />
+
+     <!-- Lancement du noeud controleur (la machine à états) -->
+    <node pkg="tb3_projet_TD" type="controleur" name="controleur_node" output="screen" />
+
+    <!-- Lancement du noeud de lecture du clavier -->
+    <node pkg="tb3_projet_TD" type="key_input_node" name="key_input_node" output="screen" />
+    <!-- Lancement du noeud pour -->
+    <node pkg="tb3_projet_TD" type="detector" name="detector_node" output="screen" />
+</launch>

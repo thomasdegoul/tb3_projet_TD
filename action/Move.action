@@ -1,0 +1,14 @@
+# 1. Le Goal (Objectif envoyé par le client)
+float32 target_x
+float32 target_y
+---
+# 2. Le Result (Résultat final renvoyé une fois terminé)
+float32 distance_totale
+float32 temps_ecoule
+---
+# 3. Le Feedback (Retour d'état en continu)
+float32 pos_x
+float32 pos_y
+float32 vitesse_lineaire
+float32 vitesse_angulaire
+float32 distance_restante

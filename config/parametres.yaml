@@ -1,0 +1,7 @@
+# Fichier de configuration du robot TB3
+
+
+frequence_controle: 10.0
+
+
+mode_par_defaut: "MANUEL"
