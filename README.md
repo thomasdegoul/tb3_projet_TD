@@ -38,7 +38,7 @@ tb3_projet_TD/
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/<votre-compte>/tb3_projet_TD.git
+git clone https://github.com/thomasdegoul/tb3_projet_TD.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
